@@ -1,0 +1,29 @@
+
+### The CIDR range for the VPC. Example: 
+# vpc_cidr = "10.0.0.0/24"
+vpc_cidr = ""
+
+### The name of the VPC. Example: 
+# vpc_name = "services"
+vpc_name = ""
+
+
+### The CIDR blocks for Public Subnets. Each block will be created in a unique AZ if. Example: 
+# public_subnet_cidrs = [ "10.0.0.0/28", "10.0.0.16/28" ]
+public_subnet_cidrs = []
+
+
+### The CIDR blocks for Private Subnets. Each block will be created in a unique AZ if. Example: 
+# private_subnet_cidrs = [ "10.0.0.32/28", "10.0.0.64/28" ]
+private_subnet_cidrs = []
+
+
+### General tags for each taggable object within the vpc. Example
+# tags = {
+#     "Owner"="Saed Alavinia"
+#     "Stage"="Development"
+#     "Department"="Billing"
+# }
+tags = {
+    
+}
